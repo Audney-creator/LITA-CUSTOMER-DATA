@@ -49,6 +49,11 @@ Explore subscription patterns and calculate key metrics.
     
 # Visuals: 
 
+![Screenshot (35)](https://github.com/user-attachments/assets/c988ba5e-c4b0-4304-8b35-5a1bc20b5205)
+
+![Screenshot (36)](https://github.com/user-attachments/assets/a134aa4f-faa2-447c-9f5e-292a52ba60ed)
+
+![Screenshot (37)](https://github.com/user-attachments/assets/26ca79d2-aa1d-4619-9d24-8ed6ab6fa36b)
 
 
 
