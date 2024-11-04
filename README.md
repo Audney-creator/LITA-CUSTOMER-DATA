@@ -28,13 +28,31 @@ This project analyzes customer data from a subscription service to identify cust
   
 - Power BI: For visualizing insights through an interactive dashboard.
 
+
+## Data
+The dataset used for this project was provided by Ladies in Tech Africa (LITA) as part of a Capstone Project assignment. Initially, it contained 75,000 rows of customer records related to a subscription service. After careful inspection, duplicate records were found and removed, reducing the dataset to 33,787 unique rows. It included customer information for a subscription service. This structured dataset contains records of customer demographics, subscription types, durations, and statuses, allowing for an analysis of subscription patterns, popular subscription types, and trends in cancellations and renewals.
+
+**- Data Cleaning and Preparation**
+
+**Duplicates Removal**: Identified and removed duplicate records, resulting in a final dataset of 33,787 rows.
+
+**Subscription Duration Calculation**: The dataset did not include a pre-calculated subscription duration, so I calculated it by using an Excel formula to subtract the subscription start date from the subscription end date.
+
+**Missing Values**: No missing data was detected in the dataset, so further data cleaning was not required.
+
+
+|Customer ID|Customer Name|Region|Subscription Type|Subscription Start|Subscription End|Canceled|Revenue|
+
+
+
 ## Project Steps And Analysis
 ---
 ## Excel Analysis
-# - Objective:
+---
+**- Objective:**
 Explore subscription patterns and calculate key metrics.
 
-# - Steps Taken:
+**- Steps Taken:**
    - Created pivot tables to analyze subscription durations and identify popular subscription types.
      
    - Calculated the average subscription duration and determined the most common subscription types.
@@ -42,12 +60,12 @@ Explore subscription patterns and calculate key metrics.
    - Generated charts and other visuals to illustrate trends in subscription types and duration.
 
      
-# - Key Findings:
-  - The most popular subscription type was # Basic.
+**- Key Findings:**
+  - The most popular subscription type was **Basic**.
     
-  - The average subscription duration was # 365 days.
+  - The average subscription duration was **365 days**.
     
-# Visuals: 
+**Visuals:** 
 
 ![Screenshot (35)](https://github.com/user-attachments/assets/c988ba5e-c4b0-4304-8b35-5a1bc20b5205)
 
@@ -58,10 +76,11 @@ Explore subscription patterns and calculate key metrics.
 
 
 ## SQL Analysis
-# - Objective: 
+---
+**- Objective:** 
 Run queries to uncover trends and answer specific business questions.
 
-## - Steps taken:
+**- Steps taken:**
 - Loaded the dataset into an SQL environment to run queries on customer behavior and subscription trends.
 - Ran queries to find insights such as:
    - Total customers by region.
@@ -80,15 +99,15 @@ Run queries to uncover trends and answer specific business questions.
      
    - Counts of active vs. canceled subscriptions.
      
-## - Key Insights:
-1. The region with the most customers was [insert region].
+**- Key Insights:**
+1. The region with the most customers was **East region**.
    
-2. The subscription type generating the highest revenue was [insert type].
+2. The subscription type generating the highest revenue was **Basic subscription**.
    
-3. The top three regions by cancellations were [insert regions].
+3. The top three regions by cancellations were **North,South,West**.
  
 
-## - QUERIES: 
+**- QUERIES:** 
 ```sql
 CREATE DATABASE CUSTOMER_DATA_REPORT
 
@@ -140,20 +159,21 @@ GROUP BY CANCELED
 
 
 ## Power BI Dashboard
-## - Objective:
+---
+**- Objective:**
 Visualize the analysis and make insights easily accessible.
 
-## - Steps taken:
+**- Steps taken:**
 - Created a dashboard with visuals to highlight customer segments, popular subscription types, and trends in cancellations and renewals.
   
 - Included slicers for interactive filtering by region, subscription type, and customer status.
   
-## - Key Visuals:
+**- Key Visuals:**
 - Subscription Overview: Displays overall subscription trends and most popular types.
 - Cancellation and Renewal Trends: Visualizes cancellation rates across regions.
 - Regional Analysis: Highlights customer segments by region.
 
-## - Visuals:
+**- Visuals:**
 
 ![Screenshot (29)](https://github.com/user-attachments/assets/eefa74f8-9ce2-4554-8302-e8159ec75a1f)
 
