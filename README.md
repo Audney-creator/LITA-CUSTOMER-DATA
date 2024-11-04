@@ -43,9 +43,9 @@ Explore subscription patterns and calculate key metrics.
 
      
 # - Key Findings:
-  - The most popular subscription type was [insert most popular type].
+  - The most popular subscription type was # Basic.
     
-  - The average subscription duration was [insert average duration]
+  - The average subscription duration was # 365 days.
     
 # Visuals: 
 
