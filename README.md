@@ -155,6 +155,10 @@ Visualize the analysis and make insights easily accessible.
 
 ## - Visuals:
 
+![Screenshot (29)](https://github.com/user-attachments/assets/eefa74f8-9ce2-4554-8302-e8159ec75a1f)
+
+![Screenshot (30)](https://github.com/user-attachments/assets/000cc75c-47f8-40f6-961c-c04f4ab3f99b)
+
 
 
 ## Conclusions 
