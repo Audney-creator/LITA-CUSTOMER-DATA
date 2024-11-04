@@ -155,6 +155,8 @@ Visualize the analysis and make insights easily accessible.
 
 ## - Visuals:
 
+
+
 ## Conclusions 
 ---
 This analysis provided a detailed view of subscription patterns, popular customer segments, and areas with high cancellation rates, helping the business understand customer retention and product popularity.and to make business decisions around service improvements.
